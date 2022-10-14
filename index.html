@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <div class="container">
+
+      <div class="top">
+         <div class="t_left">
+            <h1>Dashboard</h1>
+            <button class="dob">Добавить задачу </button>
+         </div>
+         <div class="t_right">
+            <button class="poisk"> Поиск по задачам </button>
+         </div>
+      </div>
+      <div class="top_2">
+         <p class="pokaz">Показать задачи как:</p>
+         <a href="index.html">
+            <p class="tab">Таблица</p>
+         </a>
+         <a href="./ind.html">
+            <p class="plitka">Плитка</p>
+         </a>
+      </div>
+      <div class="top_3">
+         <div class="inf">
+
+            <div class="inf1">Заголовок задачи </div>
+            <div class="inf2">Описание задачи</div>
+            <div class="inf3">Дата </div>
+            <div class="inf4">Время</div>
+            <div class="inf5">Выполнено</div>
+         </div>
+         <div class="top3">
+
+         </div>
+
+         <div class="modal_bg"></div>
+         <div class="modal">
+  
+             <form name="login">
+                 <h1 class="login_title">Добавить</h1>
+                 <input type="text" name="title" placeholder="Заголовок" class="main_input"><br>
+                 <input type="text" name="info" placeholder="Описание" class="main_input"><br>
+                 <input type="time" name="time" placeholder="Время" class="main_input"><br>
+                 <input type="date" name="data" placeholder="Время" class="main_input"><br>
+ 
+                 <select class="select" name="ready">
+                     <option class="option" value="В прогрессе">В прогрессе</option>
+                     <option class="option" selected value="Не выполнено">Не выполнено</option>
+                     <option class="option" value="Готово">Готово</option>
+                 </select>
+ 
+                 <br>
+ 
+                 <button class="save">Сохранить</button>
+                 <!-- <button class="delete">Удалить</button> -->
+ 
+             </form>
+ 
+         </div>
+
+
+
+
+
+
+
+
+
+
+      </div>
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+   <script src="./script.js"></script>
+</body>
+
+</html>

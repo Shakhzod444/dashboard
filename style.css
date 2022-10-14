@@ -1,0 +1,297 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+   width: 95%;
+   height: 900px;
+   /* background-color: rgb(255, 242, 0); */
+   margin: 0 auto;
+   padding-top: 50px;
+   padding-left: 20px;
+   padding-right: 20px;
+   position: relative;
+}
+
+.top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.t_left {
+   display: flex;
+   align-items: center;
+}
+
+.t_left h1 {
+   font-size: 48px;
+}
+
+.dob {
+   height: 46px;
+   width: 189px;
+   left: 589px;
+   top: 86px;
+   background: #007FFF;
+   border-radius: 10px;
+   margin-left: 30px;
+   border: 0px;
+   font-weight: bold;
+   transition: 0.5s;
+}
+
+.dob:hover {
+   background: #0099ff;
+
+
+}
+
+.poisk {
+   width: 189px;
+   height: 46px;
+   left: 1225px;
+   top: 86px;
+   background: #FFFFFF;
+   border: 1px solid rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   font-weight: bold;
+   transition: 0.5s;
+   color: #979797;
+}
+
+.poisk:hover {
+   background: #ebebeb;
+
+}
+
+.pokaz {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.tab {
+   font-size: 24px;
+   font-weight: bold;
+   margin-left: 15px;
+   text-decoration: none;
+   color: royalblue;
+}
+
+
+.plitka {
+   font-size: 24px;
+   font-weight: bold;
+   text-decoration: none;
+   margin-left: 15px;
+   color: gray;
+}
+
+a {
+
+   text-decoration: none;
+}
+
+.top_2 {
+   display: flex;
+   margin-top: 20px;
+}
+
+
+.top_3 {
+   width: 100%;
+   /* background-color: #007FFF; */
+
+   margin-top: 30px;
+
+}
+
+.inf {
+   display: flex;
+}
+
+.inf1 {
+   width: 300px;
+   color: #979797;
+
+}
+
+.inf2 {
+   width: 750px;
+   color: #979797;
+
+}
+
+
+.inf3 {
+   width: 150px;
+   color: #979797;
+
+}
+
+.inf4 {
+   width: 100px;
+   color: #979797;
+
+}
+
+.inf5 {
+   width: 200px;
+   color: #979797;
+}
+
+.liniya {
+   display: flex;
+   padding: 20px 5px;
+   border-top: 2px solid #979797;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+
+.l1 {
+   width: 280px;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+.l2 {
+   width: 730px;
+   font-weight: bold;
+   font-size: 17px;
+}
+
+
+.l3 {
+   width: 150px;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+.l4 {
+   width: 100px;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+.l5 {
+   width: 200px;
+   font-weight: bold;
+   font-size: 18px;
+   color: #000000;
+}
+
+
+
+.modal_bc {
+   position: absolute;
+   height: 1000px;
+   width: 1000vh;
+   background-color: rgba(0, 0, 0, 0.966);
+}
+
+
+
+
+
+
+
+
+
+
+.modal_bg {
+   display: none;
+   opacity: 0;
+   width: 100%;
+   height: 130%;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   background-color: rgba(0, 0, 0, .5);
+   /* backdrop-filter: blur(7px); */
+}
+
+.modal {
+   display: none;
+   opacity: 0;
+   width: 632px;
+   height: 577px;
+   background-color: white;
+   padding: 56px 97px 56px 97px;
+   border-radius: 8px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   translate: -50% -50%;
+}
+
+.login_title {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 59px;
+   color: #000000;
+   margin-bottom: 32px;
+}
+
+.main_input {
+   width: 438px;
+   height: 56px;
+   background: #FFFFFF;
+   border: 1px solid #000000;
+   border-radius: 10px;
+   padding: 19px 25px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 20px;
+   color: #000000;
+   margin-bottom: 8px;
+}
+
+.save {
+   width: 438px;
+   height: 56px;
+   left: 645px;
+   top: 735px;
+   background: #0047FF;
+   border-radius: 10px;
+   color: #FFFFFF;
+   border: none;
+   text-align: center;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 22px;
+   margin: 8px 0;
+
+}
+
+.select {
+   width: 438px;
+   height: 56px;
+   left: 645px;
+   padding: 19px 25px;
+   top: 672px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 20px;
+   color: #000000;
+   background: #FFFFFF;
+   border: 1px solid #000000;
+   border-radius: 10px;
+   margin-bottom: 8px;
+}
+
+.option {
+   width: 438px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 20px;
+   color: #000000;
+}
